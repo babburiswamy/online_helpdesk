@@ -1,0 +1,110 @@
+@import "bootstrap";
+
+.container {
+
+    background-color: #CCFFCC;
+    width: 80%;
+        height: 400px;
+    float: left;
+    padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+ 
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+.container3 {
+
+    background-color: #CCFFCC;
+    width: 70%;
+        height: 500px;
+    float: left;
+    padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+	padding-right:30px;
+ 
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+#form-left{
+    background-color: #E0E0E0;
+    width:34%;
+    float:right;
+    padding-top:30px;
+    margin-right:10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+    }   
+
+.container6{
+
+    background-color: lightgray;
+    width: 30%;
+       height: 300px;
+    float: right;
+    padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+	padding-right:30px;
+ 
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+.container7{
+
+    background-color: lightgray;
+    width: 30%;
+       height: 400px;
+    float: right;
+    padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+	padding-right:30px;
+ 
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+
+.done-button{
+     background: transparent;
+     border: 1px solid #e8e8e8;
+     display: block;
+     float: right;
+      background: #0089d1;
+      color: #006faa;
+      font-weight: 400;
+      font-size: 1.4em; //font size does not change
+      display: block;
+      padding: 0px 4px 0px 4px; //modification doesn't show..
+      text-decoration: none;
+      &:hover { 
+        color: rgb(229, 246, 255);
+        background: #0089d1;
+      }
+  }
+
+
+
+//.container1 {
+//background-color: Lightgreen;
+//}
+
+
+
+// Place all the styles related to the issues controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

@@ -1,0 +1,20 @@
+= form_for Issue.new do |f|
+  = f.label :category
+  = f.text_field :category
+  %br
+= f.label :sevirity
+  = f.select :sevirity, [[1,"a"],[2,"b"],[3,"c"],[4,"d"],[5,"e"]]
+  %br
+  = f.label :criticality
+  = f.select :criticality, [[1,"a"],[2,"b"],[3,"c"],[4,"d"],[5,"e"]]
+  = f.label :issue_type
+  = f.select :issue_type, [["balckberry","a"],[2,"b"],[3,"c"],[4,"d"],[5,"e"]]
+  %br
+    %br
+      = f.label :empty_box
+      = f.select :empty_box, [["balckberry","a"],[2,"b"],[3,"c"],[4,"d"],[5,"e"]]
+      %br
+        %br
+          .actions
+            %br
+              = f.submit "login", class:"btn btn-lg btn-primary btn-block"

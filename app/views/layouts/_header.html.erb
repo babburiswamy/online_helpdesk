@@ -1,0 +1,14 @@
+<header class="navbar navbar-fixed-top">
+<nav class="navbar navbar-inverse" role="navigation">
+
+<div class="navbar-inner">
+<div class="container1">
+<center><font color="white"><h2>Online Helpdesk</h2></font></center>
+
+<%= link_to "Sign out", destroy_user_session_path, :data => {:method => :delete} %>
+ <%= link_to "Sign out", destroy_admin_session_path, :method => :delete %>
+<!--<%= link_to "sign in", new_admin_session_path %>-->
+
+</div>
+</div>
+</nav>

@@ -1,0 +1,13 @@
+<div class = "container5">
+  <%= form_for @issue do |f| %>
+  <%= f.hidden_field :category %>
+  <%= f.hidden_field :severity %>
+  <%= f.hidden_field :prority %>
+  <%= f.hidden_field :issue_type %>
+  <%= f.hidden_field :issue_box, :rows => 5, :cols => 50 %><br><br>
+  <%=f.submit "done", class: "btn btn-large btn-primary" %>
+  <%= button_tag(type: 'submit', class: "btn btn-primary") do %>
+ <i class="icon-ok icon-white"></i> cancel
+  <% end %></center>
+<% end %>
+ </div>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  severity: MyString
+  prority: MyString
+  issue_type: MyString
+  issue_box: MyString
+
+two:
+  category: MyString
+  severity: MyString
+  prority: MyString
+  issue_type: MyString
+  issue_box: MyString

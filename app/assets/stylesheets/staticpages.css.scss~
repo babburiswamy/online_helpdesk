@@ -1,0 +1,21 @@
+@import "bootstrap";
+.wrap {
+    width: 570px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 68px;
+    clear: both;
+}
+
+body {
+    padding-top: 90px;
+    background-image: url('/assets/images8.jpg');
+background-size:1300px 680px;
+background-repeat:no-repeat;
+ 	}
+
+
+
+// Place all the styles related to the staticpages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
