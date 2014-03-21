@@ -4,14 +4,14 @@
   <%= f.select :category, options_for_select(%w[SelectOne nokia samsung  blackberry],:disabled => ["Select One"]) %><br>
 
   <%= f.label :sevirity %>
-  <%= f.select :severity, options_for_select(%w[Critical Major Moderate Minor Cosmetic],{:style => "min-width: 100px;"}) %><br>
+  <%= f.select :severity, options_for_select(%w[Critical Major Moderate Minor Cosmetic]) %><br>
 
-  <%= f.label :priority %>
-  <%= f.select :prority, options_for_select(%w[Low Medium High],{:style => "min-width: 100px;"}) %><br>
+  <%= f.label :priority %>&nbsp&nbsp
+  <%= f.select :prority, options_for_select(%w[Low Medium High]) %><br>
 
 
   <%= f.label :issue_type %>
-  <%= f.select :issue_type, options_for_select(%w[Display Battery Charging Software ]) %>
+  <%= f.select :issue_type, options_for_select(%w[Display Battery Charging Software ]) %>&nbsp
   <br><br>
 
   <%= f.text_area :issue_box, :rows => 5, :cols => 50 %><br><br>
